@@ -1,106 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work-Profile</title>
+    <title>Joana Ferreira</title>
     <link rel="stylesheet" href="profile.css">
 </head>
 
-<header class="header">
-    <h1>Joana Ferreira dos Santos</h1>
-    <h2>Analista de Teste Jr</h2>
-</header>
-
 <body>
-    <section id="sobre" class="sessao">
-        <h2>Sobre mim</h2>
-        <a>
-            <img src="imagem.jpg" alt=" Minha foto de perfil">
-        </a>
-        
-        <p>
-            Sou analista de sistema de automação, com experiência em testes de
-            integração tanto no front-end quanto no back-end. Busco trabalhar com
-            tecnologias que agregam em minha carreira como QA, valorizo boas
-            práticas, e um ótimo ambiente de trabalho.
-        </p>
-
+    <header class="header">
+        <h1>Joana Ferreira dos Santos</h1>
+        <h2>Analista de Teste Jr</h2>
+    </header>
+    <section id="sobre" class="sessao linha">
+        <div class="coluna">
+            <img src="imagem.jpg" alt=" Minha foto de perfil" class="foto_perfil">
+        </div>
+        <div class="coluna">
+            <h3>Sobre mim</h3>
+            <div class="sobre_descricao">
+                <p>
+                    Sou analista de sistema de automação, com experiência em testes de
+                    integração tanto no front-end quanto no back-end.
+                </p>
+                <p>
+                    Busco trabalhar com
+                    tecnologias que agregam em minha carreira como QA, valorizo boas
+                    práticas, e um ótimo ambiente de trabalho.
+                </p>
+            </div>
+        </div>
     </section>
-
     <section id="experiencia" class="sessao">
-        <h2>Experiência</h2>
+        <h3>Experiência</h3>
         <dl>
-            <dt>Atua Sistemas by nstech, Presencial — Operações</dt>
-            <br>
-            <dd>
-                Mar DE 2023 - Out 2023
-                - Suporte ao cliente.
-                -Teste e análise do sistema 
-            </dd>
-            <br>
-            <dt>I4pro, Remoto — Analista de Testes PL</dt>
-            <br>
-            <dd>
-                Julho de 2022 - Setembro 2022
-                - Alocada no time interno da I4pro.
-                – Desenvolvimento de testes funcionais no front-end e no back-end.
-            </dd>
-            <br>
-            <dt>Inmetrics, Remoto — Analista de Testes JR</dt>
-            <br>
-            <dd>
-                DEZEMBRO DE 2021 - Junho DE 2022
-                - Alocada no time da Magalu.
-                – Desenvolvimento de testes de integração do back-end utilizando Ruby e
-                Cucumber.
-            </dd>
-            <br>
-            <dt>Compasso, Remoto — Analista de Testes JR</dt>
-            <br>
-            <dd>
-                MARÇO DE 2020 - NOVEMBRO DE 2021
-                - Alocado no time de Analista de Sistema de Software Automação
-                Camicado/Renner.
-                - Desenvolvimento de testes de integração do front-end utilizando Ruby,
-                Cucumber e Capybara.                
-            </dd>
-            <br>
-            <dt>Grazziotin, Presencial — Desenvolvedor Trainee</dt>
-            <br>
-            <dd>
-                ABRIL DE 2019 - MARÇO 2020
-                - Alocado no time de desenvolvimento.
-                - Desenvolvimento em Delphi.
-                - Utilização em Banco de Dados com PL/SQL.
-           </dd>
+            <div class="experiencia-item">
+                <dt>Atua Sistemas by nstech, Presencial — Operações</dt>
+                <dd>
+                    <p>Março de 2023 - Outubro 2023</p>
+                    <ul>
+                        <li>Suporte ao cliente.</li>
+                        <li>Teste e análise do sistema.</li>
+                    </ul>
+                </dd>
+            </div>
+            <div class="experiencia-item">
+                <dt>I4pro, Remoto — Analista de Testes PL</dt>
+                <dd>
+                    <p>Julho de 2022 - Setembro 2022</p>
+                    <ul>
+                        <li>Alocada no time interno da I4pro.</li>
+                        <li>Desenvolvimento de testes funcionais no front-end e no back-end.</li>
+                    </ul>
+                </dd>
+            </div>
+            <div class="experiencia-item">
+                <dt>Inmetrics, Remoto — Analista de Testes JR</dt>
+                <dd>
+                    <p>Dezembro de 2021 - Junho 2022</p>
+                    <ul>
+                        <li>Alocada no time da Magalu.</li>
+                        <li>Desenvolvimento de testes de integração do back-end utilizando Ruby e
+                            Cucumber.</li>
+                    </ul>
+                </dd>
+            </div>
+            <div class="experiencia-item">
+                <dt>Compasso, Remoto — Analista de Testes JR</dt>
+                <dd>
+                    <p>Março de 2020 - Novembro 2021</p>
+                    <ul>
+                        <li>Alocado no time de Analista de Sistema de Software Automação
+                            Camicado/Renner.</li>
+                        <li>Desenvolvimento de testes de integração do front-end utilizando Ruby,
+                            Cucumber e Capybara.</li>
+                    </ul>
+                </dd>
+            </div>
+            <div class="experiencia-item">
+                <dt>Grazziotin, Presencial — Desenvolvedor Trainee</dt>
+                <dd>
+                    <p>Abril de 2019 - Março 2019</p>
+                    <ul>
+                        <li>Alocado no time de desenvolvimento.</li>
+                        <li>Desenvolvimento em Delphi.</li>
+                        <li>Utilização em Banco de Dados com PL/SQL.</li>
+                    </ul>
+                </dd>
+            </div>
         </dl>
     </section>
-
-    <section id="formacao" class="sessao">
-        <h2>Formação</h2>
-        <dl>
-            <dt>Atitus Educação, Passo Fundo - RS — Em Andamento
-                Bacharel em Ciência da Computação</dt>
-        </dl>
+    <section id="formacao_competencias" class="sessao linha">
+        <div id="formacao" class="coluna">
+            <h3>Formação</h3>
+            <p>Atitus Educação, Passo Fundo - RS</p>
+            <p>Bacharel em Ciência da Computação</p>
+            <p>Em Andamento</p>
+        </div>
+        <div id="competencias" class="coluna">
+            <h3>Competências</h3>
+            <ul>
+                <li>Ruby</li>
+                <li>Cucumber</li>
+                <li>Selenium Web Driver</li>
+                <li>Jenkins</li>
+                <li>Testes em API</li>
+                <li>Testes de Integração</li>
+                <li>Cypress</li>
+            </ul>
+        </div>
     </section>
-
-    <section id="competencias" class="sessao">
-        <h2>Competências</h2>
-        <ul>
-            <li>Ruby</li>
-            <li>Cucumber</li>
-            <li>Selenium Web Driver</li>
-            <li>Jenkins</li>
-            <li>Testes em API</li>
-            <li>Testes de Integração</li>
-            <li>Cypress</li>
-          </ul>
-    </section>
-
     <section id="contatos" class="sessao">
-        <h1>Contatos</h1>
+        <h3>Contatos</h3>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/joannaferreira/" class="botao-linkedin">LinkedIn</a>
+            <a href="mailto:joannaferreira098@gmail.com" class="botao-email">Email</a>
+        </div>
     </section>
-    
 </body>
+
 </html>
