@@ -10,7 +10,6 @@
     text-align: center;
     font-size: 35px;
     height: 100vh;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +43,7 @@ body {
 
 .sessao {
     padding: 50px;
-    min-height: 50%;
+    min-height: 50vh;
 }
 
 .linha {
@@ -62,7 +61,7 @@ body {
 
 .foto_perfil {
     max-width: 400px;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .sobre_descricao {
@@ -70,11 +69,19 @@ body {
     width: 300px;
 }
 
+#experiencia,
+#contatos {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 #experiencia {
     background-color: #ADD8E6;
     background-image: url("fundo.jpg");
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#experiencia ul {
+    list-style-type: none;
 }
 
 .experiencia-item {
@@ -95,17 +102,14 @@ p {
     margin: 5px 0;
 }
 
-#experiencia ul {
+ul {
     margin-top: 5px;
     margin-left: 20px;
-    list-style-type: none;
 }
 
 #contatos {
     background-color: #071013;
     background-image: url("fundo.jpg");
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #EEE;
     display: flex;
     justify-content: center;
@@ -144,4 +148,36 @@ p {
 
 .botao-email:hover {
     background-color: #FFA400;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 20px;
+        font-size: 28px;
+    }
+
+    .sessao {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto_perfil {
+        max-width: 250px;
+    }
+
+    .sobre_descricao {
+        min-width: auto;
+        width: 100%;
+    }
+
+    #experiencia,
+    #contatos {
+        padding: 20px;
+    }
+
+    .botao-linkedin,
+    .botao-email {
+        padding: 8px 16px;
+    }
 }
